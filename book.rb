@@ -1,9 +1,8 @@
 
 class Book
-    attr_reader :word_count, :author, :title
+    attr_reader :word_count, :title
 @@all=[]
-def initialize (author, title, word_count)
-    @author = author
+def initialize ( title, word_count)
     @title = title
     @word_count = word_count
     @@all << self
